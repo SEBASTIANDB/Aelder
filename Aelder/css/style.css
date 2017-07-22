@@ -1,0 +1,201 @@
+.intro .foto {
+position: relative;	
+	width: 100%
+}
+.intro .button{
+	position: absolute;
+	width: 30%;
+	top: 8px;
+	right: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	font-size: 35px;
+	font-family: 'Bungee', cursive;
+	cursor: pointer;
+	color: black;
+	border-color: black;
+	border-style: groove;
+	transition: 0.4s ease;	
+
+}
+.intro .button:hover{
+	background-color: #8B8FFF;
+	border-style: solid hidden solid hidden;
+}
+
+
+body{
+	background: url("../images/background.jpg");
+	scroll-behavior: smooth;
+	margin: 0;
+}
+a{	
+	color: white;
+	text-align: center;
+
+}
+.content div{
+	height: 500px;
+	font-size: 1rem;
+}
+.content img{	
+	height: auto;
+}
+.content #intro{
+	height: 400px;
+	font-size: 1.3rem;
+}
+.content #Contact{
+	margin-top: 30px;
+	height: 200px;
+}
+#intro{
+	padding-bottom: 20px;
+}
+#Home{	
+	padding-bottom: 35px;
+}
+#Home img{
+	float: right;	
+}
+#Home p{
+	float: left;
+	width: 45%;
+}
+#Agenda{	
+	padding-bottom: 35px;
+}
+#Agenda img{
+	float: left;	
+}
+#Agenda p{
+	float: right;
+	width: 45%;
+}
+#Gallery{	
+	padding-bottom: 35px;
+}
+#Gallery img{
+	float: right;	
+}
+#Gallery p{
+	float: left;
+	width: 45%;
+}
+#About{	
+	padding-bottom: 35px;
+}
+#About img{
+	float: left;	
+}
+#About p{
+	float: right;
+	width: 45%;
+}
+.content img{
+	opacity: 0.85;
+	max-height: 40rem;
+	max-width: 40rem;
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 96rem;
+	min-width: 32rem;
+	margin: 0 auto;
+}
+.wrapperTwo{
+	margin: 0 auto;
+	max-width: 96rem;
+	min-width: 32rem;
+	margin: 0 auto;
+}
+.content {
+	font-family: 'Bungee', cursive;
+	margin-top: 3%;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;	
+}
+#logo{
+	text-align: center;
+	
+}
+#logo a {	
+	text-decoration: none!important;
+	font-size: 90px;
+	font-family: 'Bungee', cursive;
+
+}
+nav{
+	margin-top: 3%;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Bungee', cursive;
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px 20px;
+}
+nav ul li a{	
+	text-decoration: none !important;
+	text-shadow: 1px 1px 5px white;
+	
+}
+nav ul li a:hover{		
+	color: red;
+	
+}
+#top{
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+
+#first{
+	background: gray;
+}#second{
+	background: gray;
+}#third{
+	background: gray;
+}#fourth{
+	background: gray;
+}#fifth{
+	background: gray;
+}
+
+#Members{
+	height: auto;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}	
+#Members div{
+	height: 300px;
+	width: 100%;
+}
+#Members img{
+	float: left;		
+	height: 17rem;
+	width: auto;	
+}
+#Members p{
+
+	text-align: left;
+	float: left;
+	width: 50%;
+	height: 80%;
+
+}
+body > * {
+	font-size: 1.3rem; /* placed here instead of in body -> fix for Chrome bug */
+}
+
+.hidden{
+	position: absolute !important;
+	visibility: hidden !important;
+	z-index: -1 !important;
+}
